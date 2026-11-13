@@ -1,93 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The public profile of Najair Lindsay, an emerging creative from Jamaica with interests in music, entrepreneurship and entertainment.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Najair Lindsay | Official Website</title>
+  <meta name="description" content="The official website of Najair Lindsay, an emerging creative from Jamaica with interests in music, entrepreneurship and entertainment. Explore his biography and creative projects, including NEWCRAZY.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://naj-lindsay.github.io/">
   <meta name="theme-color" content="#090909">
-  <title>Najair Lindsay | Official Profile</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Najair Lindsay | Official Website">
+  <meta property="og:description" content="Music, entrepreneurship and entertainment. Discover the official profile and creative projects of Najair Lindsay from Jamaica.">
+  <meta property="og:url" content="https://naj-lindsay.github.io/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Najair Lindsay | Official Website">
+  <meta name="twitter:description" content="The official profile of Najair Lindsay, an emerging creative from Jamaica.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Najair Lindsay",
+    "url": "https://naj-lindsay.github.io/",
+    "description": "An emerging creative from Jamaica with interests in music, entrepreneurship and entertainment.",
+    "nationality": {
+      "@type": "Country",
+      "name": "Jamaica"
+    },
+    "knowsAbout": [
+      "Music",
+      "Entrepreneurship",
+      "Entertainment",
+      "Creative direction",
+      "Talent development"
+    ]
+  }
+  </script>
   <style>
-    :root { color-scheme: dark; --bg:#090909; --panel:#141414; --muted:#a5a5a5; --line:#292929; --white:#f5f5f5; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; background:var(--bg); color:var(--white); font-family:Arial,Helvetica,sans-serif; line-height:1.6; }
-    a { color:inherit; text-decoration:none; }
-    .wrap { width:min(1080px, calc(100% - 40px)); margin:auto; }
-    header { display:flex; justify-content:space-between; align-items:center; padding:24px 0; border-bottom:1px solid var(--line); }
-    .brand { font-size:13px; letter-spacing:.22em; font-weight:700; }
-    nav { display:flex; gap:22px; color:var(--muted); font-size:13px; }
-    nav a:hover { color:white; }
-    .hero { min-height:570px; display:flex; flex-direction:column; justify-content:center; padding:90px 0; }
-    .eyebrow { color:var(--muted); letter-spacing:.24em; text-transform:uppercase; font-size:11px; }
-    h1 { font-size:clamp(48px, 10vw, 108px); line-height:.95; letter-spacing:-.065em; margin:22px 0; max-width:850px; }
-    .hero p { color:#c3c3c3; max-width:570px; font-size:18px; }
-    .tagline { margin-top:26px; color:var(--muted); font-size:12px; letter-spacing:.13em; text-transform:uppercase; }
-    .section { padding:76px 0; border-top:1px solid var(--line); }
-    .section h2 { font-size:30px; letter-spacing:-.04em; margin:0 0 18px; }
-    .section p { color:#c0c0c0; max-width:760px; }
-    .grid { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; margin-top:28px; }
-    .tile { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:24px; min-height:145px; }
-    .tile h3 { margin:0 0 8px; font-size:17px; }
-    .tile p { margin:0; font-size:14px; color:var(--muted); }
-    .project { margin-top:24px; border:1px solid var(--line); border-radius:14px; padding:26px; background:linear-gradient(135deg,#171717,#0d0d0d); }
-    .project .label { color:var(--muted); font-size:11px; letter-spacing:.18em; text-transform:uppercase; }
-    .project h3 { font-size:27px; margin:8px 0; }
-    footer { padding:28px 0 42px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; display:flex; justify-content:space-between; gap:15px; flex-wrap:wrap; }
-    @media(max-width:650px) { nav { gap:12px; font-size:11px; } .grid { grid-template-columns:1fr; } .hero { min-height:480px; padding:70px 0; } .hero p { font-size:16px; } }
+    :root{color-scheme:dark;--bg:#080808;--panel:#121212;--line:#292929;--muted:#aaa;--white:#f5f5f5}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1080px,calc(100% - 42px));margin:auto}
+    header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .brand{font-size:12px;font-weight:800;letter-spacing:.24em}
+    nav{display:flex;gap:25px;color:#bbb;font-size:13px}
+    nav a:hover,.text-link:hover{color:white}
+    .hero{min-height:590px;display:flex;flex-direction:column;justify-content:center;padding:95px 0}
+    .eyebrow{font-size:11px;letter-spacing:.23em;text-transform:uppercase;color:#aaa}
+    h1{font-size:clamp(52px,11vw,112px);line-height:.91;letter-spacing:-.075em;margin:24px 0;max-width:900px}
+    .hero-copy{font-size:19px;color:#c3c3c3;max-width:620px}
+    .subline{margin-top:28px;color:#aaa;font-size:11px;letter-spacing:.17em;text-transform:uppercase}
+    .section{padding:76px 0;border-top:1px solid var(--line)}
+    .section h2{font-size:32px;letter-spacing:-.045em;margin:10px 0 18px}
+    .section p{color:#c0c0c0;max-width:770px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:28px}
+    .tile,.project{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:25px}
+    .tile h3,.project h3{margin:0 0 8px;font-size:18px}
+    .tile p,.project p{margin:0;color:#aaa;font-size:14px}
+    .project{margin-top:22px;background:linear-gradient(135deg,#191919,#0d0d0d)}
+    .project-label{font-size:10px;letter-spacing:.2em;color:#aaa;text-transform:uppercase}
+    .project h3{font-size:28px;margin:9px 0}
+    .note{font-size:12px!important;color:#858585!important;margin-top:18px}
+    footer{padding:28px 0 42px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#888;font-size:12px}
+    @media(max-width:650px){nav{gap:13px;font-size:11px}.hero{min-height:490px;padding:75px 0}.hero-copy{font-size:16px}.grid{grid-template-columns:1fr}.section{padding:60px 0}}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <a class="brand" href="#top">NL / PROFILE</a>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#interests">Interests</a>
-        <a href="#projects">Projects</a>
-      </nav>
-    </header>
+<div class="wrap">
+  <header>
+    <a class="brand" href="#home" aria-label="Najair Lindsay home">NL / OFFICIAL</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#interests">Interests</a><a href="#projects">Projects</a>
+    </nav>
+  </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="eyebrow">Jamaica · Emerging Creative</div>
-        <h1>NAJAIR<br>LINDSAY.</h1>
-        <p>A developing creative with interests in music, entrepreneurship and entertainment, exploring ideas and building projects with a global outlook.</p>
-        <div class="tagline">Music &nbsp; / &nbsp; Business &nbsp; / &nbsp; Entertainment</div>
-      </section>
+  <main id="home">
+    <section class="hero">
+      <div class="eyebrow">Jamaica · Emerging Creative</div>
+      <h1>NAJAIR<br>LINDSAY.</h1>
+      <div class="hero-copy">Exploring music, entrepreneurship and entertainment through ideas, creativity and developing projects.</div>
+      <div class="subline">Music &nbsp; / &nbsp; Business &nbsp; / &nbsp; Entertainment</div>
+    </section>
 
-      <section class="section" id="about">
-        <div class="eyebrow">01 / About</div>
-        <h2>About Najair</h2>
-        <p>Najair Lindsay is an emerging creative from Jamaica with interests across music, business and entertainment. He is exploring creative opportunities, developing ideas and working toward building a distinctive presence through projects and collaboration.</p>
-        <p>This profile is an introductory biography. It will be expanded as public projects, releases and verified achievements are ready to share.</p>
-      </section>
+    <section class="section" id="about">
+      <div class="eyebrow">01 / Biography</div>
+      <h2>About Najair Lindsay</h2>
+      <p>Najair Lindsay is an emerging creative from Jamaica with interests in music, entrepreneurship and entertainment. He is interested in developing creative ideas, exploring opportunities in the entertainment industry and building projects that reflect his interests.</p>
+      <p>This official profile shares an introduction to Najair and his creative work. It will be updated as projects develop and verifiable public information becomes available.</p>
+    </section>
 
-      <section class="section" id="interests">
-        <div class="eyebrow">02 / Areas of interest</div>
-        <h2>Creative interests</h2>
-        <div class="grid">
-          <article class="tile"><h3>Music</h3><p>Developing an artistic identity and exploring music and creative expression.</p></article>
-          <article class="tile"><h3>Entrepreneurship</h3><p>Exploring business ideas, independent projects and brand development.</p></article>
-          <article class="tile"><h3>Entertainment</h3><p>Interested in the wider entertainment industry and creative collaboration.</p></article>
-          <article class="tile"><h3>Creative direction</h3><p>Interested in concepts, presentation, talent development and visual identity.</p></article>
-        </div>
-      </section>
+    <section class="section" id="interests">
+      <div class="eyebrow">02 / Areas of interest</div>
+      <h2>Creative direction</h2>
+      <div class="grid">
+        <article class="tile"><h3>Music</h3><p>Exploring an artistic identity, music creation and creative expression.</p></article>
+        <article class="tile"><h3>Entrepreneurship</h3><p>Interested in business ideas, independent initiatives and building a personal brand.</p></article>
+        <article class="tile"><h3>Entertainment</h3><p>Following the entertainment industry and exploring creative collaboration.</p></article>
+        <article class="tile"><h3>Talent & creative development</h3><p>Interested in artist development, concepts, presentation and creative direction.</p></article>
+      </div>
+    </section>
 
-      <section class="section" id="projects">
-        <div class="eyebrow">03 / Projects</div>
-        <h2>Selected work</h2>
-        <div class="project">
-          <div class="label">Creative project</div>
-          <h3>NEWCRAZY</h3>
-          <p>A group-development and entertainment concept that Najair has worked on as part of his creative interests. Further public details can be added as the project develops.</p>
-        </div>
-      </section>
-    </main>
+    <section class="section" id="projects">
+      <div class="eyebrow">03 / Creative projects</div>
+      <h2>Projects</h2>
+      <article class="project">
+        <div class="project-label">Group concept · In development</div>
+        <h3>NEWCRAZY</h3>
+        <p>NEWCRAZY is a group-development and entertainment concept Najair has worked on. This section can be updated with confirmed project details, announcements and milestones as they become public.</p>
+      </article>
+      <p class="note">This website is an introductory biography and project page. It does not claim awards, releases, partnerships or professional credentials that have not been confirmed.</p>
+    </section>
+  </main>
 
-    <footer>
-      <span>© <span id="year">2026</span> Najair Lindsay</span>
-      <span>Public biography · Jamaica</span>
-    </footer>
-  </div>
+  <footer>
+    <span>© 2026 Najair Lindsay</span>
+    <span>Official profile · Jamaica</span>
+  </footer>
+</div>
 </body>
 </html>
